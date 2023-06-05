@@ -7,11 +7,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{B2
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AwsSqs", "AwsSqs", "{08202012-EF9D-4520-9D07-D2E4B4C15F15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqsPublisher", "Services\AwsSqs\SqsPublisher\SqsPublisher.csproj", "{EBEE3C05-84FC-43CB-A3A4-14BBAB269DCA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqsPublisher", "Services\AwsSqs\SqsPublisher\SqsPublisher.csproj", "{EBEE3C05-84FC-43CB-A3A4-14BBAB269DCA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqsConsumer", "Services\AwsSqs\SqsConsumer\SqsConsumer.csproj", "{B4F26B2D-FC68-4BC6-A19F-D60ED0DFC72C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqsConsumer", "Services\AwsSqs\SqsConsumer\SqsConsumer.csproj", "{B4F26B2D-FC68-4BC6-A19F-D60ED0DFC72C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Customers.Api", "Services\AwsSqs\Customers.Api\Customers.Api.csproj", "{4E8D984D-EA2B-4965-A487-145150969AFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customers.Consumer", "Services\AwsSqs\Customers.Consumer\Customers.Consumer.csproj", "{93106F90-3C4B-4867-A1C1-1634B6FF03EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{4E8D984D-EA2B-4965-A487-145150969AFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E8D984D-EA2B-4965-A487-145150969AFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E8D984D-EA2B-4965-A487-145150969AFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93106F90-3C4B-4867-A1C1-1634B6FF03EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93106F90-3C4B-4867-A1C1-1634B6FF03EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93106F90-3C4B-4867-A1C1-1634B6FF03EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93106F90-3C4B-4867-A1C1-1634B6FF03EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -40,6 +46,7 @@ Global
 		{EBEE3C05-84FC-43CB-A3A4-14BBAB269DCA} = {08202012-EF9D-4520-9D07-D2E4B4C15F15}
 		{B4F26B2D-FC68-4BC6-A19F-D60ED0DFC72C} = {08202012-EF9D-4520-9D07-D2E4B4C15F15}
 		{4E8D984D-EA2B-4965-A487-145150969AFE} = {08202012-EF9D-4520-9D07-D2E4B4C15F15}
+		{93106F90-3C4B-4867-A1C1-1634B6FF03EC} = {08202012-EF9D-4520-9D07-D2E4B4C15F15}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B2FB73A6-CD51-4321-9D3A-29C109E53701}
