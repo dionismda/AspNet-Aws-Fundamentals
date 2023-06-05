@@ -1,5 +1,6 @@
 using Amazon.SQS;
 using Customers.Consumer;
+using MediatR;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
