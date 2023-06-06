@@ -13,13 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqsConsumer", "Services\Aws
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Customers.Api", "Services\AwsSqs\Customers.Api\Customers.Api.csproj", "{4E8D984D-EA2B-4965-A487-145150969AFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customers.Consumer", "Services\AwsSqs\Customers.Consumer\Customers.Consumer.csproj", "{93106F90-3C4B-4867-A1C1-1634B6FF03EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Customers.Consumer", "Services\AwsSqs\Customers.Consumer\Customers.Consumer.csproj", "{93106F90-3C4B-4867-A1C1-1634B6FF03EC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AwsSns", "AwsSns", "{380FED93-F0CA-4D71-863B-F7FBB4697C7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnsPublisher", "Services\AwsSns\SnsPublisher\SnsPublisher.csproj", "{5CCB5C93-4C72-4AAF-AA47-5DA7E353CEBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SnsPublisher", "Services\AwsSns\SnsPublisher\SnsPublisher.csproj", "{5CCB5C93-4C72-4AAF-AA47-5DA7E353CEBD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqsConsumer", "Services\AwsSns\SqsConsumer\SqsConsumer.csproj", "{C34F88EF-87E5-41F3-AD84-D9E5673E8804}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqsConsumer", "Services\AwsSns\SqsConsumer\SqsConsumer.csproj", "{C34F88EF-87E5-41F3-AD84-D9E5673E8804}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Customers.Api", "Services\AwsSns\Customers.Api\Customers.Api.csproj", "{5BA32AC7-7324-4B1B-BFCA-005C68FD1D47}"
 EndProject
@@ -41,7 +41,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AwsSecretsManager", "AwsSec
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Weather.Api", "Services\AwsSecretsManager\Weather.Api\Weather.Api.csproj", "{02D7930D-E04E-4A61-B6F9-B4AF783D677C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecretsManager", "Services\AwsSecretsManager\SecretsManager\SecretsManager.csproj", "{70FFCAE5-0D49-4ADF-8942-894177A9959C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecretsManager", "Services\AwsSecretsManager\SecretsManager\SecretsManager.csproj", "{70FFCAE5-0D49-4ADF-8942-894177A9959C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AwsLambda", "AwsLambda", "{4333F642-B004-4C54-A784-27CB19B2861D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleLambda", "Services\AwsLambda\SimpleLambda\src\SimpleLambda\SimpleLambda.csproj", "{74F208BA-3E50-4F3C-93D5-F4D4CAA9C5C7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleHttpLambda", "Services\AwsLambda\SimpleHttpLambda\src\SimpleHttpLambda\SimpleHttpLambda.csproj", "{5E8EB5DD-B239-49FF-B95E-6AD2D3A056BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleSqsLambda", "Services\AwsLambda\SimpleSqsLambda\src\SimpleSqsLambda\SimpleSqsLambda.csproj", "{F13AEFCD-6A6D-485E-8CCC-5DF9CD70A4B4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleSnsLambda", "Services\AwsLambda\SimpleSnsLambda\src\SimpleSnsLambda\SimpleSnsLambda.csproj", "{F3C696BC-A11F-425B-A3E9-23EA9AEBE1F2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleDynamoDbLambda", "Services\AwsLambda\SimpleDynamoDbLambda\src\SimpleDynamoDbLambda\SimpleDynamoDbLambda.csproj", "{056BBC99-9B95-4657-B70E-344EED5ECD42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleS3Lambda", "Services\AwsLambda\SimpleS3Lambda\SimpleS3Lambda\src\SimpleS3Lambda\SimpleS3Lambda.csproj", "{4D2BD4E1-7AA1-4145-9091-B5DFD53AEB04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleApiLambda", "Services\AwsLambda\SimpleApiLambda\SimpleApiLambda.csproj", "{2A0B4E91-A849-474A-86B0-7B09A91EE570}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +121,34 @@ Global
 		{70FFCAE5-0D49-4ADF-8942-894177A9959C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70FFCAE5-0D49-4ADF-8942-894177A9959C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70FFCAE5-0D49-4ADF-8942-894177A9959C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74F208BA-3E50-4F3C-93D5-F4D4CAA9C5C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74F208BA-3E50-4F3C-93D5-F4D4CAA9C5C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74F208BA-3E50-4F3C-93D5-F4D4CAA9C5C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74F208BA-3E50-4F3C-93D5-F4D4CAA9C5C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E8EB5DD-B239-49FF-B95E-6AD2D3A056BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E8EB5DD-B239-49FF-B95E-6AD2D3A056BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E8EB5DD-B239-49FF-B95E-6AD2D3A056BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E8EB5DD-B239-49FF-B95E-6AD2D3A056BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F13AEFCD-6A6D-485E-8CCC-5DF9CD70A4B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F13AEFCD-6A6D-485E-8CCC-5DF9CD70A4B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F13AEFCD-6A6D-485E-8CCC-5DF9CD70A4B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F13AEFCD-6A6D-485E-8CCC-5DF9CD70A4B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3C696BC-A11F-425B-A3E9-23EA9AEBE1F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3C696BC-A11F-425B-A3E9-23EA9AEBE1F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3C696BC-A11F-425B-A3E9-23EA9AEBE1F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3C696BC-A11F-425B-A3E9-23EA9AEBE1F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{056BBC99-9B95-4657-B70E-344EED5ECD42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{056BBC99-9B95-4657-B70E-344EED5ECD42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{056BBC99-9B95-4657-B70E-344EED5ECD42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{056BBC99-9B95-4657-B70E-344EED5ECD42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D2BD4E1-7AA1-4145-9091-B5DFD53AEB04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D2BD4E1-7AA1-4145-9091-B5DFD53AEB04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D2BD4E1-7AA1-4145-9091-B5DFD53AEB04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D2BD4E1-7AA1-4145-9091-B5DFD53AEB04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A0B4E91-A849-474A-86B0-7B09A91EE570}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A0B4E91-A849-474A-86B0-7B09A91EE570}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A0B4E91-A849-474A-86B0-7B09A91EE570}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A0B4E91-A849-474A-86B0-7B09A91EE570}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -129,6 +173,14 @@ Global
 		{FC3A4189-31C7-4385-A29C-7194630D8B7F} = {B22836CF-E2B6-4753-8F08-12B4DEDE78CE}
 		{02D7930D-E04E-4A61-B6F9-B4AF783D677C} = {FC3A4189-31C7-4385-A29C-7194630D8B7F}
 		{70FFCAE5-0D49-4ADF-8942-894177A9959C} = {FC3A4189-31C7-4385-A29C-7194630D8B7F}
+		{4333F642-B004-4C54-A784-27CB19B2861D} = {B22836CF-E2B6-4753-8F08-12B4DEDE78CE}
+		{74F208BA-3E50-4F3C-93D5-F4D4CAA9C5C7} = {4333F642-B004-4C54-A784-27CB19B2861D}
+		{5E8EB5DD-B239-49FF-B95E-6AD2D3A056BE} = {4333F642-B004-4C54-A784-27CB19B2861D}
+		{F13AEFCD-6A6D-485E-8CCC-5DF9CD70A4B4} = {4333F642-B004-4C54-A784-27CB19B2861D}
+		{F3C696BC-A11F-425B-A3E9-23EA9AEBE1F2} = {4333F642-B004-4C54-A784-27CB19B2861D}
+		{056BBC99-9B95-4657-B70E-344EED5ECD42} = {4333F642-B004-4C54-A784-27CB19B2861D}
+		{4D2BD4E1-7AA1-4145-9091-B5DFD53AEB04} = {4333F642-B004-4C54-A784-27CB19B2861D}
+		{2A0B4E91-A849-474A-86B0-7B09A91EE570} = {4333F642-B004-4C54-A784-27CB19B2861D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B2FB73A6-CD51-4321-9D3A-29C109E53701}

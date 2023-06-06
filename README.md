@@ -15,6 +15,8 @@ O Amazon Simple Queue Service (SQS) permite que você envie, armazene e receba m
 
 * [Secrets Manager](https://aws.amazon.com/pt/secrets-manager/): O AWS Secrets Manager ajuda você a gerenciar, recuperar e alternar credenciais de banco de dados, chaves de API e outros segredos ao longo de seus ciclos de vida.
 
+* [Lambda](https://aws.amazon.com/pt/lambda/): O AWS Lambda é um serviço de computação sem servidor e orientado a eventos que permite executar código para praticamente qualquer tipo de aplicação ou serviço de backend sem provisionar ou gerenciar servidores. Você pode acionar o Lambda a partir de mais de 200 serviços da AWS e aplicações de software como serviço (SaaS) e pagar apenas pelo que usar.
+
 # Licença
 O PratoFeito é distribuído sob a licença MIT. Para mais informações, consulte o arquivo LICENSE neste repositório.
 Espero que isso ajude! Se você tiver mais dúvidas, sinta-se à vontade para perguntar.
